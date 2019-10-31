@@ -1,0 +1,8 @@
+  create table payment_tab (
+       id number(10,0) not null,
+        amount double precision,
+        payment_date timestamp,
+        transaction_id number(10,0),
+        vendor_name varchar2(255 char),
+        primary key (id)
+    )
